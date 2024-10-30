@@ -1,0 +1,30 @@
+I. File list
+------------
+solution.c       The Main Matrix Multiplication Program
+makefile				 A makefile to compile the required files into main program
+README					 A readme file describing the general details of usage of program
+
+
+The following rules are to observed while using program
+1.open the terminal
+2. cd into current directory
+3. make
+
+The correct command for running the program is
+usee@computer: $~ ./program -N num -M num -L num -S num - T num -F filepath
+
+Rules:
+	1. filepath must be a valid filepath in linux
+	2. filepath can be relative or absolute
+	3. file must contain only characters P,C, and D each coming exactly L*M times with no space separation
+	4. In addition to above following constraints must be followed
+
+	M > N > 2
+	S > 3
+	M > T>=1
+	L >=3
+	K = 2*L*M
+
+
+
+
